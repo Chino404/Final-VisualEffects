@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost
+  m_Shader: {fileID: -6465566751694194690, guid: c8a27dc4189b83e47a8c4baed234dc37, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_6a2cb43cc15d4b2b808eee7f7329bb7d: 1
+    - Vector1_f0c97c35b93e44dd94ed95235240a51e: 1
+    m_Colors:
+    - Color_1baae119769c4bafa7dd2dd8d326d9e9: {r: 0.040668968, g: 3.8838346, b: 0, a: 1}
+    - Color_25e0ad660ede4de2a2b459b6ed1c1755: {r: 0, g: 0.9245283, b: 0.0033054892, a: 1}
+    - Color_3e1d8ee895f54225b97d3452a71d32b6: {r: 1.0039216, g: 0.89411765, b: 0.89411765, a: 1}
+    - Color_9dea71b37629436c8e5edb8abc34580c: {r: 0, g: 1, b: 0.09375, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3596328187584069068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3596328187584069066}
+  - component: {fileID: 3596328187584069069}
+  m_Layer: 0
+  m_Name: --- AudioManager ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3596328187584069066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3596328187584069068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1380.9309, y: 583.03845, z: -7.297577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3596328187584069069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3596328187584069068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753327516c6903042808178cbc8c81d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Menu
+    clip: {fileID: 8300000, guid: caf964a382efb344590c6fd18bd1f78b, type: 3}
+    volume: 1.5
+    pitch: 1
+    loop: 1
+    output: {fileID: 113882883198713909, guid: 29e26bf1a39de44499c215962df208b3, type: 2}
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 9e546c2add05f6847871c632dcd68964, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    output: {fileID: 113882883198713909, guid: 29e26bf1a39de44499c215962df208b3, type: 2}
+    source: {fileID: 0}
+  - name: Banana
+    clip: {fileID: 8300000, guid: edaf89995bf97b243b85402a901bf4b7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7596352709049134544, guid: 29e26bf1a39de44499c215962df208b3, type: 2}
+    source: {fileID: 0}
+  - name: "Da\xF1o"
+    clip: {fileID: 8300000, guid: cb11b5718ab688b439360c1f345c6327, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7596352709049134544, guid: 29e26bf1a39de44499c215962df208b3, type: 2}
+    source: {fileID: 0}
+  _mixer: {fileID: 24100000, guid: 29e26bf1a39de44499c215962df208b3, type: 2}
